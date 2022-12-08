@@ -17,7 +17,7 @@
 
 ## Phase 2: Learn PrimeVue Basics
 
-- Core Syntax
+- Components
 - Templates/Themes
 
 
