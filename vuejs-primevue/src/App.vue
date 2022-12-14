@@ -1,21 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/BW_Logo_Black.svg"
-      width="125"     
-      height="125"
+        alt="Vue logo"
+        class="logo"
+        src="@/assets/BW_Logo_Black.svg"
+        width="125"
+        height="125"
       />
       <HelloWorld msg="Betterworks Mentors" />
 
-      <nav>
+      <nav class="fw300">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/find">Find a Mentor</RouterLink>
         <RouterLink to="/view">View All Mentors</RouterLink>
@@ -54,9 +55,8 @@ nav a.router-link-exact-active:hover {
 }
 
 nav a {
-  display: inline-block;
+  display: block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
 }
 
 nav a:first-of-type {
