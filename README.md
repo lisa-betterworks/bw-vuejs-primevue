@@ -1,4 +1,4 @@
-# VueJS Training:
+# VueJS Training(WIP):
 
 ## Phase 1: Learn VueJS Basics
 - Core Syntax
